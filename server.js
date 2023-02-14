@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const PORT = process.env.PORT ||3000;
+const PORT = process.env.PORT ||3001;
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
 
 // MONGODB CONNECTION STRING
-const MONGO_URL = 'mongodb+srv://admin:admin@cluster0.utxcz7o.mongodb.net/?retryWrites=true&w=majority';
+const MONGO_URL = 'mongodb+srv://admin:admin1234@cluster0.aexigtv.mongodb.net/test';
 
 // MONGODB CONNECTION METHOD
 const connection = mongoose.connect(MONGO_URL)
