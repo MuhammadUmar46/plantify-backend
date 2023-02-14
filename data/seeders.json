@@ -1,0 +1,140 @@
+{
+  "header": "Karachi",
+  "rating": 3,
+  "address": "P.E.C.H.S Block 2",
+  "attributes": ["Hot drinks", "Food", "Premium wifi"],
+  "hours": [
+    {
+      "days": "Monday - Friday",
+      "hours": "7:00am - 7:00pm",
+      "closed": true
+    },
+    {
+      "days": "Saturday",
+      "hours": "8:00am - 5:00pm",
+      "closed": false
+    },
+    {
+      "days": "Sunday",
+      "closed": true
+    }
+  ],
+  "reviews": [
+    {
+      "rating": 4,
+      "id": 1,
+      "author": "Philly B.",
+      "timestamp": "new Date('Jan 3, 2022')",
+      "body": "It was fine, but coffee was a bit dull."
+    },
+    {
+      "rating": 2,
+      "id": 2,
+      "author": "Tom B.",
+      "timestamp": "new Date('Feb 23, 2022')",
+      "body": "I asked for her number. She said no."
+    }
+  ],
+
+  "header1": "Pizza",
+  "rating1": 3,
+  "address1": "747 Fly Court,New Jersey",
+  "attributes1": ["Live Music", "Rooftop Bar", "2 Floors"],
+  "hours1": [
+    {
+      "days": "Monday - Friday",
+      "hours": "10:00am - 7:00pm",
+      "closed": true
+    },
+    {
+      "days": "Saturday",
+      "hours": "8:00am - 3:00pm",
+      "closed": true
+    },
+    {
+      "days": "Sunday",
+      "closed": true
+    }
+  ],
+  "reviews2": [
+    {
+      "rating": 5,
+      "id": 1,
+      "author": "Shayan Satti.",
+      "timestamp": "new Date('March 3, 2022')",
+      "body": "Whoa! The music here is wicked good. Definitely going again."
+    },
+    {
+      "rating": 4,
+      "id": 6,
+      "author": "Irfan Ayaz",
+      "timestamp": "new Date('Apr 23, 2022')",
+      "body": "I asked her to play football."
+    }
+  ],
+  "hours3": [
+    {
+      "rating": 5,
+      "id": 7,
+      "author": "Fernando Pinto.",
+      "timestamp": "new Date('May 23, 2022')",
+      "body": "I enjoyed a lot having a dinner with her."
+    },
+    {
+      "rating": 7,
+      "id": 8,
+      "author": "Tom B.",
+      "timestamp": "new Date('June 23, 2022')",
+      "body": "We had a great time together."
+    },
+    {
+      "rating": 8,
+      "id": 9,
+      "author": "Alya Azab.",
+      "timestamp": "new Date('July 19,2022 ')",
+      "body": "I had a great breakfast."
+    },
+    {
+      "rating": 10,
+      "id": 12,
+      "author": "Maria",
+      "timestamp": "new Date('Aug 14, 2022')",
+      "body": "I have a wonderful memories there."
+    },
+    {
+      "rating": 11,
+      "id": 18,
+      "author": "Awais Arain.",
+      "timestamp": "new Date('Sept 20, 2020')",
+      "body": "I enjoyed having fun"
+    },
+    {
+      "rating": 19,
+      "id": 16,
+      "author": "Jennifer.",
+      "timestamp": "new Date('Feb 23, 2016')",
+      "body": "Jenifer is a good girl."
+    },
+    {
+      "rating": 24,
+      "id": 1,
+      "author": "John Smith.",
+      "timestamp": "new Date('Apr 12, 2021')",
+      "body": "John is very handsome."
+    },
+    {
+      "rating": 34,
+      "id": 21,
+      "author": "Preeti.",
+      "timestamp": "new Date('Dec 21, 2020')",
+      "body": "The weather is awesome."
+    },
+    {
+      "rating": 30,
+      "id": 27,
+      "author": "Manchanda",
+      "timestamp": "new Date('Aug 22, 2022')",
+      "body": "France is a great country"
+    }
+  ]
+}

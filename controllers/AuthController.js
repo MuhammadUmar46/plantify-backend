@@ -31,11 +31,10 @@ const AuthController = {
                 res.json({
                     message:"Internal Server Error",
                     status:false
-                });
+                }
+                )
                 return;
-
             }
-        
         })
         const PasswordValid =  bcrypt.compare(
             user.password,
@@ -57,5 +56,5 @@ const AuthController = {
     },
     
 }
-module.exports = AuthController;
+    module.exports = AuthController;
 

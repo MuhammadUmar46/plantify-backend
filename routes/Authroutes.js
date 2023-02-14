@@ -10,4 +10,5 @@ router.post('/api/signup',AuthController.signup);
 // Authentication Routes for Signup
 router.post('/api/login',AuthController.login);
 
+
 module.exports = router;
